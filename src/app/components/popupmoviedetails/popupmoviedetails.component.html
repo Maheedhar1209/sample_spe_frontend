@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Angular App</title>
+  <base href="/">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body  >
+    
+    <div class="wholepopup">
+     
+    <div class="popup">
+        <button id="close" (click)="gotohome()">&times;</button>
+        <h2 style="color: white;">Movie Details</h2>
+        <p style="color: white;"> 
+           {{movie_details}}
+        </p>
+        <a href="#">Add to favourites</a>
+        <i  (click)="change()" *ngIf="showElement"  style="font-size:24px; color: white; cursor: pointer;" class="fa">&#xf1e0;</i>
+        <div *ngIf="!showElement" class="send_to_mobile">
+        <label for="phone">Phone number:</label>
+  <input type="tel" id="phone" name="phone" placeholder="Enter phone number" [(ngModel)]="phone_number">
+
+  <button type="submit" class="send_movie_details" (click)="sendsms()" >Send</button>
+</div> 
+    </div>
+
+</div>
+
+  
+    <!--Script-->
+</body>
+
+</html>

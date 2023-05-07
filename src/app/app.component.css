@@ -1,0 +1,25 @@
+/* Custom styles for Toastr notifications */
+
+.toast-custom {
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .toast-custom-info {
+    background-color: #007bff;
+  }
+  
+  .toast-custom-success {
+    background-color: #28a745;
+  }
+  
+  .toast-custom-warning {
+    background-color: #ffc107;
+  }
+  
+  .toast-custom-error {
+    background-color: #dc3545;
+  }
+  

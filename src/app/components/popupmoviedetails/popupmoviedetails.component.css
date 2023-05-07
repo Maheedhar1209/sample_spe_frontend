@@ -1,0 +1,92 @@
+
+.wholepopup{
+    background-image: url('../../../assets/bkg6.jpeg');
+    padding-top: 10%;
+    padding-bottom: 20%;
+    padding-left: 15%;
+    padding-right: 30%;
+    background-color: black;
+}
+.popup{
+background-color:black;
+width: 420px;
+padding: 30px 40px;
+
+justify-items: center;
+margin-top: 100px;
+margin-left: 250px;;
+border-radius: 38px;
+font-family: "Poppins",sans-serif;
+
+text-align: center;
+}
+#close{
+display: block;
+margin:  0 0 20px auto;
+background-color: transparent;
+font-size: 30px;
+color: #ffffff;
+background: red;
+
+width: 40px;
+height: 40px;
+border: none;
+outline: none;
+cursor: pointer;
+}
+.popup h2{
+margin-top: -20px;
+}
+.popup p{
+font-size: 14px;
+text-align: justify;
+margin: 20px 0;
+line-height: 25px;
+}
+a{
+display: block;
+width: 150px;
+position: relative;
+margin: 10px auto;
+text-align: center;
+background-color: red;
+border-radius: 20px;
+color: #ffffff;
+text-decoration: none;
+padding: 8px 0;
+}
+.send_to_mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="tel"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
